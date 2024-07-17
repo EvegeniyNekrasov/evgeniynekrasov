@@ -13,7 +13,8 @@
 		"build": "tsc -b && vite build",
 		"lint": "npx eslint src/",
 		"preview": "vite preview",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"docs": "typedoc"
 	},
 	"dependencies": {
 		"animejs": "^3.2.2",
@@ -31,6 +32,7 @@
 		"eslint-plugin-react-hooks": "^4.6.2",
 		"eslint-plugin-react-refresh": "^0.4.7",
 		"prettier": "^3.3.3",
+		"typedoc": "^0.26.4",
 		"typescript": "^5.2.2",
 		"vite": "^5.3.4"
 	}
